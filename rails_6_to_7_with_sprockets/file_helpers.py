@@ -3,7 +3,7 @@ def replace_line_in_file(file_path, regex, replacement):
 
   with open(file_path, 'r') as f:
     for line in f:
-      if regex.match(line):
+      if regex.search(line):
         new_lines.append(replacement)
       else:
         new_lines.append(line)
