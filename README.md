@@ -1,3 +1,9 @@
+## Installation
+
+```
+pip install rails-6-to-7-with-sprockets
+```
+
 ## Usage
 
 ```
